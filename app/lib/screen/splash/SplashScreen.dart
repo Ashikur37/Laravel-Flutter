@@ -5,8 +5,10 @@ class SplashScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: Text("Flutter tune"),
+    return Scaffold(
+      body: Container(
+        child: Center(child: Text("Flutter Tune")),
+      ),
     );
   }
 }

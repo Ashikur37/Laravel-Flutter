@@ -1,5 +1,4 @@
 import 'package:app/components/buttons/solid_button.dart';
-import 'package:app/components/buttons/striped_button.dart';
 import 'package:app/components/form/input_field.dart';
 import 'package:app/components/form/input_field_password.dart';
 import 'package:app/screen/home/home_screen.dart';

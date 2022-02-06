@@ -26,20 +26,20 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return FutureBuilder(
       // Replace the 3 second delay with your initialization code:
-      future: Future.delayed(Duration(milliseconds: 1200)),
+      future: Future.delayed(const Duration(milliseconds: 1200)),
       builder: (context, AsyncSnapshot snapshot) {
         return MaterialApp(
-          title: 'Instant Salaries',
+          title: 'App Name',
           debugShowCheckedModeBanner: false,
           theme: ThemeData(
             primarySwatch: Colors.blue,
             fontFamily: 'Roboto',
           ),
           home: snapshot.connectionState == ConnectionState.waiting
-              ? SplashScreen()
+              ? const SplashScreen()
               : widget.isLoggedIn
-                  ? HomeScreen()
-                  : SigninScreen(),
+                  ? const HomeScreen()
+                  : const SigninScreen(),
           routes: routes,
         );
       },

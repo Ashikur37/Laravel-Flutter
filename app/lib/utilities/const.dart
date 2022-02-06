@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-const rootUrl = "http://192.168.0.102:8000";
-const baseUrl = "http://192.168.0.102:8000/api";
+const rootUrl = "http://192.168.91.191:8000";
+const baseUrl = "http://192.168.91.191:8000/api";
 
 const loginUrl = "$baseUrl/login";
 const designationUrl = "$baseUrl/designations";
